@@ -35,3 +35,8 @@ $ docker push menamagdyhalem/new-web # open the docker hub and review repo
 
 ## pull it agian and run a new container 
 $ docker run -it --rm -d -p 4000:80 --name new-hub menamagdyhalem/new-web
+
+
+![Capture](https://github.com/user-attachments/assets/82c90156-c1d9-418a-b7d0-91cd27f9737f)
+![docker](https://github.com/user-attachments/assets/b7f2c59c-33be-4bd9-ad2a-8ac2e730492b)
+

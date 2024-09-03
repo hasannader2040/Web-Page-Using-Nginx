@@ -32,6 +32,76 @@ To run this project locally, follow these steps:
    git clone https://github.com/hasannader2040/docker-image-website.git
  ```
 
+Navigate to the project directory:
+
+```bash
+cd docker-image-website
+```
+3- Build the Docker image:
+
+
+```bash
+docker build -t my-docker-image-website .
+```
+
+This command will create a Docker image named **my-docker-image-website** based on the instructions in the **Dockerfile**.
+
+## Running the Application
+To run the Docker container, use the following command:
+
+```bash
+docker run -p 8080:80 my-docker-image-website
+```
+The **-p 8080:80** flag maps port 80 inside the Docker container to port 8080 on your local machine. You can access the web application by navigating to http://localhost:8080 in your web browser.
+
+
+## Usage
+Here are some examples of how to use the Docker Image Website:
+
+1 - Access the Web Application:
+
+Open a web browser and go to:
+
+
+```bash
+http://localhost:8080
+```
+You should see the homepage of the web application.
+
+2- Stopping the Docker Container:
+
+To stop the running container, press CTRL + C in the terminal where the Docker container is running. Alternatively, you can use:
+
+```bash
+
+docker ps  # to get the container ID
+docker stop <container_id>
+```
+
+## Tools and Technologies
+
+This project utilizes the following tools and technologies:
+
+**Docker**: To create, deploy, and run the application in isolated containers.
+**Web Server**: The web application is served using a lightweight web server inside the Docker container.
+**HTML/CSS**: Basic front-end technologies used to create the web application's user interface.
+
+
+## Contributing
+Contributions are welcome! Please follow these steps to contribute:
+
+1- Fork the repository.
+2- Create a new branch (git checkout -b feature/your-feature-name).
+3- Make your changes and commit them (git commit -m 'Add some feature').
+4- Push to the branch (git push origin feature/your-feature-name).
+5- Open a pull request.
+
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for more details.
+
+## Acknowledgements
+Special thanks to [mention any individuals, resources, or tutorials that helped in the creation of this project].
 
 
 

@@ -32,12 +32,12 @@ To run this project locally, follow these steps:
    git clone https://github.com/hasannader2040/docker-image-website.git
  ```
 
-Navigate to the project directory:
+2. **Navigate to the project directory:**
 
 ```bash
 cd docker-image-website
 ```
-3- Build the Docker image:
+3- **Build the Docker image:**
 
 
 ```bash

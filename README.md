@@ -30,7 +30,7 @@ To run this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/hasannader2040/docker-image-website.git
- ```
+     ```
 
 2. **Navigate to the project directory:**
 
